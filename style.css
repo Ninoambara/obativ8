@@ -1,0 +1,110 @@
+ *,html {
+    padding: 0;
+    margin: 0;
+ }
+   
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid pink;
+  color: pink;
+}
+
+.carousel-item {
+    height: 500px;
+
+}
+
+.logo{
+  width: 100px;
+}
+
+
+.tampil{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.list-inline{
+  padding: 20px;
+}
+
+.list-inline-item {
+    width: 200px;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    background-color: pink;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 20px;
+    border: 2px solid pink;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px 1px #CE5937;
+}
+
+.list-inline-item:hover{
+  background-color: rgb(247, 204, 211);
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.card {
+  width: 277px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.profile {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Mulish", sans-serif;
+}
+
+.profile img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+
+.profile p {
+  margin: 10px 0 0 0;
+  width: 100%;
+  line-height: 25px;
+  font-weight: 200;
+}
+
+.profile span {
+  margin-top: 8px;
+  width: 100%;
+  line-height: 25px;
+  color: #000000;
+  font-weight: 800;
+}
+
